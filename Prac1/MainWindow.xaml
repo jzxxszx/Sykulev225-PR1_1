@@ -1,0 +1,20 @@
+﻿<Window x:Class="Prac1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prac1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800" FontFamily="Candara" FontSize="14">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Введите длину ребра куба:" Margin="16" Padding="12" FontWeight="Bold" Foreground="#365056"></TextBlock>
+            <TextBox x:Name="Dlina" Margin="16" Height="Auto" Width="Auto" Padding="12"></TextBox>
+            <Button Content="Рассчитать" Click="Button_Click" Margin="16" Width="100" Padding="12" Height="42" Foreground="#FFF6A5" Background="HotPink" FontWeight="Bold"/>
+            <TextBlock Text="Объем куба:" Margin="16" Padding="12" Height="32" FontWeight="Bold" Foreground="#365056"></TextBlock>
+            <TextBlock x:Name="AnswerV" Margin="16" Padding="12" Height="32" Foreground="#78909c"></TextBlock>
+            <TextBlock Text="Площадь поверхности куба:" Margin="12" Padding="12" Height="32" Foreground="#365056" FontWeight="Bold"></TextBlock>
+            <TextBlock x:Name="AnswerS" Padding="12" Margin="16" Height="32" Foreground="#78909c"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
